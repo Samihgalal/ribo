@@ -1,0 +1,132 @@
+*{
+    /* background-color: aqua;*/
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+body {
+    font-family: "GE_SS_Two" !important;
+    background-image: url(./img/IMG_0378.PNG);
+    background-size: 50%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 1rem;
+    padding: 5px;
+}
+header{
+   position: relative;
+}
+nav {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a {
+    padding: 1rem;
+    display: block;
+    color: red;
+    text-decoration: none;   
+}
+nav ul li a :hover {
+    background-color:rgb(163,158,158);
+    color: black;
+}
+
+#home {
+   color: black;
+   width: 50%;
+   margin: 0 auto;
+   font-size: 1.5rem;
+   /*padding-top: 5rem;*/
+   margin-top: 22rem;
+   background-color: rgba(189, 195, 228, 0.2);
+   cursor: pointer;
+   padding: 2em;
+   border-radius: 30px;
+   margin-right: 50%;
+}
+
+#about{
+    color: blue;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    /*padding-top: 5rem;*/
+    margin-top: 15rem;
+    background-color: rgba(189, 195, 228, 0.2);
+    padding: 2em;
+    border-radius: 30px;
+    margin-right: 50%;
+}
+
+#services{
+     margin-top: 15rem;
+}
+
+#contact{
+    color: chocolate;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    /*padding-top: 5rem;*/
+    margin-top: 15rem;
+    background-color: rgba(189, 195, 228, 0.2);
+    cursor: pointer;
+    padding: 2em;
+    border-radius: 30px;
+    margin-right: 50%;
+    margin-top: 5%;
+}
+
+#gallery{
+    color: chocolate;
+    width: 80%;
+    margin: 0 auto; 
+    font-size: 1.5rem;
+    /*padding-top: 5rem;*/
+    /*margin-top: 75%;*/
+}
+figure img {
+    display: inline-block;
+    width: 13rem;
+    height: 15rem;
+}
+
+.icons{
+    position: relative;
+    top: 80%;
+    bottom: auto;
+}
+
+.space{
+    padding-right: 3rem;
+    margin: 1rem;
+    width: 50%;
+    margin-left: 1rem;
+}
+
+.rise{
+    width: 9.75rem;
+    height: 9.75rem;
+}
+
+.stag{
+    width: 20.75rem;
+    height: 20.75rem;
+}
+.float{
+    margin-top: 5%;
+    margin-right: 80%;
+
+}
+
+.float1{
+    margin-top: 20%;
+}
